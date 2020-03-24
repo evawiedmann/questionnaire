@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import Header from './Header'
-import MenteeForm from './MenteeForm';
-import MentorForm from './MentorForm';
+import './styles/App.css';
+import Header from './components/Header'
+import MenteeForm from './components/MenteeForm';
+import MentorForm from './components/MentorForm';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
 
@@ -44,7 +44,6 @@ class App extends React.Component {
       <div>
       <Header/>
       <Switch>
-      <Route exact path='/' render={()=><Splash startForm={this.begin}/>}/>
       <Route path='/MenteeForm' render={()=><MenteeForm createMentor={this.addMentor}/>}/>
       <Route path='/MentorForm' render={()=><MentorForm createMentee={this.addMentee}/>}/>
       <Route component={Error404} />

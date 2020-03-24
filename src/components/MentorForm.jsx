@@ -67,7 +67,7 @@ function MentorForm(props){
   }
 
   return (
-    <div onSubmit={mentee}>
+    <div onSubmit={mentor}>
     <div className='form'>
     <form>
     <input
