@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router } from 'react-router-dom';
 
-function MenteeForm(props){
+function Mentee(props){
   let _name = null
   let _position = null
   let _company = null
@@ -125,4 +125,4 @@ function MenteeForm(props){
     </div>
   );
 }
-export default MenteeForm;
+export default Mentee;

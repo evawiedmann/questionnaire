@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router } from 'react-router-dom';
 
-function MentorForm(props){
+function Mentor(props){
   let _name = null
   let _position = null
   let _company = null
@@ -118,4 +118,4 @@ function MentorForm(props){
     </div>
   );
 }
-export default MentorForm;
+export default Mentor;

@@ -13,7 +13,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       mentorshipMasterList: []
-      };
+    };
 
     this.addMentee = this.addMentee.bind(this);
     this.submitMentee = this.submitMentee.bind(this);
@@ -46,24 +46,26 @@ class App extends React.Component {
       <Header/>
       <Switch>
       <Route exact path='/' render={()=><Splash/>}/>
+      <Route path='/MentorForm' render={()=><MentorForm Mentor={this.addMentor}/>}/>
+      <Route path='/MenteeForm' render={()=><MenteeForm Mentor={this.addMentee}/>}/>
       <Route component={Error404} />
       </Switch>
       </div>
     );
   }
-  }
+}
 
-  export default App;
+export default App;
 
 
 //     return (
-//       <form onSubmit={this.handleSubmit}>
-//         <label>
-//           Name:
-//           <input type="text" value={this.state.value} onChange={this.handleChange} />
-//         </label>
-//         <input type="submit" value="Submit" />
-//       </form>
-//     );
-//   }
-// }
+  //       <form onSubmit={this.handleSubmit}>
+  //         <label>
+  //           Name:
+  //           <input type="text" value={this.state.value} onChange={this.handleChange} />
+  //         </label>
+  //         <input type="submit" value="Submit" />
+  //       </form>
+  //     );
+  //   }
+  // }
