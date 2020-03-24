@@ -11,4 +11,4 @@ function Picker(){
   );
 }
 
-export default Header;
+export default Picker;
