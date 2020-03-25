@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles/App.css';
 import Header from './components/Header'
+import Footer from './components/Footer'
 import MenteeForm from './components/Mentee/MenteeForm';
 import MentorForm from './components/Mentor/MentorForm';
 import Splash from './components/Splash';
@@ -52,6 +53,7 @@ class App extends React.Component {
       <Route path='/Contact' render={()=><Contact/>}/>
       <Route component={Error404} />
       </Switch>
+      <Footer/>
       </div>
     );
   }
