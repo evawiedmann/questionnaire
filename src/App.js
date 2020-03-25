@@ -5,6 +5,7 @@ import MenteeForm from './components/Mentee/MenteeForm';
 import MentorForm from './components/Mentor/MentorForm';
 import Splash from './components/Splash';
 import Error404 from './Error404';
+import Contact from './components/Contact';
 import { Switch, Route } from 'react-router-dom';
 
 
@@ -48,6 +49,7 @@ class App extends React.Component {
       <Route exact path='/' render={()=><Splash/>}/>
       <Route path='/MentorForm' render={()=><MentorForm Mentor={this.addMentor}/>}/>
       <Route path='/MenteeForm' render={()=><MenteeForm Mentor={this.addMentee}/>}/>
+      <Route path='/Contact' render={()=><Contact/>}/>
       <Route component={Error404} />
       </Switch>
       </div>
