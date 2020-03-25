@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './styles/App.css';
 import Header from './components/Header'
-import MenteeForm from './components/MenteeForm';
-import MentorForm from './components/MentorForm';
+import MenteeForm from './components/Mentee/MenteeForm';
+import MentorForm from './components/Mentor/MentorForm';
 import Splash from './components/Splash';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
