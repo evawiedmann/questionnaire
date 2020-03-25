@@ -3,7 +3,7 @@
 ### By Eva Wiedmann, 2020-03-24
 
 ## Description:
-This application was made as part of an independent coding project by Eva Wiedmann, a student at _[Epicodus](http://www.epicodus.com)_, a vocational school for technology careers based in Portland, OR. The project is designed to take user information and suggest a mentor and mentee.
+This application was made as part of an independent coding project by Eva Wiedmann, a student at _[Epicodus](http://www.epicodus.com)_, a vocational school for technology careers based in Portland, OR. The project is designed to take user information and suggest a mentor or mentee.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
