@@ -48,8 +48,8 @@ class App extends React.Component {
       <Header/>
       <Switch>
       <Route exact path='/' render={()=><Splash/>}/>
-      <Route path='/MentorForm' render={()=><MentorForm Mentor={this.addMentor}/>}/>
-      <Route path='/MenteeForm' render={()=><MenteeForm Mentor={this.addMentee}/>}/>
+      <Route path='/MentorForm' render={()=><MentorForm createMentor={this.addMentor}/>}/>
+      <Route path='/MenteeForm' render={()=><MenteeForm createMentee ={this.addMentee}/>}/>
       <Route path='/Contact' render={()=><Contact/>}/>
       <Route component={Error404} />
       </Switch>
