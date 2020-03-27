@@ -10,6 +10,7 @@ function Mentor(props){
   let _yearsInTech = null
   let _specialty = null
   let _priorities = null
+  let _misc = null
 
   function mentor(event){
     event.preventDefault();
@@ -22,6 +23,7 @@ function Mentor(props){
       yearsInTech: _yearsInTech.value,
       specialty: _specialty.value,
       priorities: _priorities.value,
+      misc: _misc.value
     });
 
     _name.value = '';
@@ -32,6 +34,7 @@ function Mentor(props){
     _yearsInTech.value = '';
     _specialty.value = '';
     _priorities.value = '';
+    _misc.valud = '';
     }
 
 
@@ -75,11 +78,19 @@ function Mentor(props){
     id='specialty'
     placeholder='Specialty'
     ref={(input) => {_specialty = input}}/>
+
+    <select id="priorities" name="priorities">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+
     <input
     type='text'
-    id='priorities'
-    placeholder='Priorities'
-    ref={(input) => {_priorities = input}}/>
+    id='misc'
+    placeholder='Misc'
+    ref={(input) => {_misc = input}}/>
     <div className='button'>
     <input type="submit" value="Add" />
     </div>
