@@ -9,7 +9,11 @@ function Mentor(props){
   let _genderPref = null
   let _yearsInTech = null
   let _specialty = null
-  // let _priorities = null
+  let _efficiency = false
+  let _innovation = false
+  let _collaboration = false
+  let _creativity = false
+  let _diligence = false
   let _misc = null
 
   function mentor(event){
@@ -22,7 +26,11 @@ function Mentor(props){
       genderPref: _genderPref.value,
       yearsInTech: _yearsInTech.value,
       specialty: _specialty.value,
-      // priorities: _priorities.value,
+      efficiency: _efficiency.value,
+      innovation: _innovation.value,
+      collaboration: _collaboration.value,
+      creativity: _creativity.value,
+      diligence: _diligence.value,
       misc: _misc.value
     });
 
@@ -33,8 +41,13 @@ function Mentor(props){
     _genderPref.value = '';
     _yearsInTech.value = '';
     _specialty.value = '';
-    // _priorities.value = '';
-    _misc.valud = '';
+    _efficiency.value = '';
+    _innovation.value = '';
+    _collaboration.value = '';
+    _creativity.value = '';
+    _diligence.value = '';
+    _misc.value = '';
+
     }
 
 

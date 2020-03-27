@@ -9,7 +9,11 @@ function Mentee(props){
   let _genderPref = null
   let _yearsInTech = null
   let _specialty = null
-  let _priorities = null
+  let _efficiency = null
+  let _innovation = null
+  let _collaboration = null
+  let _creativity = null
+  let _diligence = null
   let _goals = null
   let _misc = null
 
@@ -23,7 +27,11 @@ function Mentee(props){
       genderPref: _genderPref.value,
       yearsInTech: _yearsInTech.value,
       specialty: _specialty.value,
-      // priorities: _priorities.value,
+      efficiency: _efficiency.value,
+      innovation: _innovation.value,
+      collaboration: _collaboration.value,
+      creativity: _creativity.value,
+      diligence: _diligence.value,
       goals: _goals.value,
       misc: _misc.value
     });
@@ -35,7 +43,11 @@ function Mentee(props){
     _genderPref.value = '';
     _yearsInTech.value = '';
     _specialty.value = '';
-    // _priorities.value = '';
+    _efficiency.value = '';
+    _innovation.value = '';
+    _collaboration.value = '';
+    _creativity.value = '';
+    _diligence.value = '';
     _goals.value = '';
     _misc.value = '';
   }
@@ -88,11 +100,6 @@ function Mentee(props){
     id='specialty'
     placeholder='Specialty'
     ref={(input) => {_specialty = input}}/>
-    <input
-    type='text'
-    id='priorities'
-    placeholder='Priorities'
-    ref={(input) => {_priorities = input}}/>
     <input
     type='text'
     id='goals'
