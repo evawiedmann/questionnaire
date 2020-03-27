@@ -23,7 +23,7 @@ function Mentee(props){
       genderPref: _genderPref.value,
       yearsInTech: _yearsInTech.value,
       specialty: _specialty.value,
-      priorities: _priorities.value,
+      // priorities: _priorities.value,
       goals: _goals.value,
       misc: _misc.value
     });
@@ -35,7 +35,7 @@ function Mentee(props){
     _genderPref.value = '';
     _yearsInTech.value = '';
     _specialty.value = '';
-    _priorities.value = '';
+    // _priorities.value = '';
     _goals.value = '';
     _misc.value = '';
   }
@@ -113,7 +113,7 @@ function Mentee(props){
 
     <input type="checkbox" id="Diligence" name="Diligence" value="Diligence"/>
     <label for="Diligence">Diligence</label>
-    
+
     <div className='button'>
     <input type="submit" value="Add" />
     </div>
