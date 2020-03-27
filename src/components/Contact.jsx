@@ -5,7 +5,7 @@ function Contact(){
   return (
     <div>
       <h1>Contact</h1>
-      <p>For any questions, comments, or concerns please email Eva Wiedmann at evawiedmann@gmail.com, etc.</p>
+      <p>For any questions, comments, or concerns please email Eva Wiedmann at <a href="mailto:evawiedmann@gmail.com">evawiedmann@gmail.com</a>.</p>
     </div>
   );
 }
