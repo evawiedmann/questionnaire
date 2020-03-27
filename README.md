@@ -5,6 +5,28 @@
 ## Description:
 This application was made as part of an independent coding project by Eva Wiedmann, a student at _[Epicodus](http://www.epicodus.com)_, a vocational school for technology careers based in Portland, OR. The project is designed to take user information and suggest a mentor or mentee.
 
+## Setup/Installation instructions:
+* Click the `Clone or download` button and copy the link.
+* Open your terminal application (assuming **GIT Scripts** and **node.js** (with NPM)) and type `git clone (link)`.
+* In terminal using the `cd`... command, navigate to the newly created repository and run `bundle install`.
+* Run `npm i`.
+* Run `npm start`.
+
+## Technologies Used
+> `JavaScript`
+> `React.js`
+> `HTML`
+> `CSS`
+
+## Known Bugs
+* None
+
+## Support and contact details
+Contact [evawiedmann@gmail.com](mailto:evawiedmann@gmail.com)
+
+## License
+This repository is copyright (C) 2020 by Eva Wiedmann.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
