@@ -5,7 +5,9 @@ function Footer(){
   return (
     <div>
       <h1>Social Media Links</h1>
-      <div className='social'><Link to="/">Facebook</Link> | <Link to="/Contact">Main Site</Link>
+      <div className='social'>
+      <a href="https://twitter.com/epicodus?lang=en">Twitter</a>
+  | <br/> <a href= 'https://www.facebook.com/epicodus.school/'>Facebook</a>
       </div>
     </div>
   );
