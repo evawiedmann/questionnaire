@@ -9,7 +9,7 @@ function Mentor(props){
   let _genderPref = null
   let _yearsInTech = null
   let _specialty = null
-  let _priorities = null
+  // let _priorities = null
   let _misc = null
 
   function mentor(event){
@@ -22,7 +22,7 @@ function Mentor(props){
       genderPref: _genderPref.value,
       yearsInTech: _yearsInTech.value,
       specialty: _specialty.value,
-      priorities: _priorities.value,
+      // priorities: _priorities.value,
       misc: _misc.value
     });
 
@@ -33,7 +33,7 @@ function Mentor(props){
     _genderPref.value = '';
     _yearsInTech.value = '';
     _specialty.value = '';
-    _priorities.value = '';
+    // _priorities.value = '';
     _misc.valud = '';
     }
 
