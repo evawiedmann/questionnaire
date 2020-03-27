@@ -34,37 +34,7 @@ function Mentor(props){
     _priorities.value = '';
     }
 
-  let post = {
 
-    height: '70px',
-    width: '380px',
-    border: '1px solid lightgrey',
-    marginLeft: '425px',
-    backgroundColor: 'lightblue',
-    paddingRight: '20px',
-  }
-
-
-  let happening = {
-    border: '2px solid #4287f5',
-    color: '#4287f5',
-    marginTop: '15px',
-    height: '30px',
-    width: '280px',
-    float: 'right',
-    paddingTop: '8px',
-    paddingLeft: '10px',
-    backgroundColor: 'white',
-  }
-
-  let maroon = {
-    height: '29px',
-    width: '29px',
-    border: '1px solid darkred',
-    backgroundColor: 'darkred',
-    marginTop: '20px',
-    marginLeft: '40px',
-  }
 
   return (
     <div onSubmit={mentor}>
