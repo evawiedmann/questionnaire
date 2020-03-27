@@ -79,12 +79,12 @@ function Mentor(props){
     placeholder='Specialty'
     ref={(input) => {_specialty = input}}/>
 
-    <select id="priorities" name="priorities">
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="fiat">Fiat</option>
-      <option value="audi">Audi</option>
-    </select>
+    <div id="priorities">
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Efficiency">
+    <label for="Efficiency">Efficiency</label>
+
+    </div>
 
     <input
     type='text'

@@ -11,6 +11,7 @@ function Mentee(props){
   let _specialty = null
   let _priorities = null
   let _goals = null
+  let _misc = null
 
   function mentee(event){
     event.preventDefault();
@@ -24,6 +25,7 @@ function Mentee(props){
       specialty: _specialty.value,
       priorities: _priorities.value,
       goals: _goals.value,
+      misc: _misc.value
     });
 
     _name.value = '';
@@ -35,6 +37,7 @@ function Mentee(props){
     _specialty.value = '';
     _priorities.value = '';
     _goals.value = '';
+    _misc.value = '';
   }
   let post = {
 
