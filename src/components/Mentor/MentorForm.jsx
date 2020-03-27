@@ -79,20 +79,26 @@ function Mentor(props){
     placeholder='Specialty'
     ref={(input) => {_specialty = input}}/>
 
-    <div id="priorities">
+    <input type='text' id='misc' placeholder='Misc' ref={(input) => {_misc = input}}/>
+    <div className='button'>
+    <input type="submit" value="Add"/>
 
-    <input type="checkbox" id="vehicle1" name="vehicle1" value="Efficiency">
+    <input type="checkbox" id="Efficiency" name="Efficiency" value="Efficiency"/>
     <label for="Efficiency">Efficiency</label>
 
-    </div>
+    <input type="checkbox" id="Innovation" name="Innovation" value="Innovation"/>
+    <label for="Innovation">Innovation</label>
 
-    <input
-    type='text'
-    id='misc'
-    placeholder='Misc'
-    ref={(input) => {_misc = input}}/>
-    <div className='button'>
-    <input type="submit" value="Add" />
+    <input type="checkbox" id="Collaboration" name="Collaboration" value="Collaboration"/>
+    <label for="Collaboration">Collaboration</label>
+
+    <input type="checkbox" id="Creativity" name="Creativity" value="Creativity"/>
+    <label for="Creativity">Creativity</label>
+
+    <input type="checkbox" id="Diligence" name="Diligence" value="Diligence"/>
+    <label for="Diligence">Diligence</label>
+
+
     </div>
     </form>
     </div>

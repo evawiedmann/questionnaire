@@ -98,6 +98,22 @@ function Mentee(props){
     id='goals'
     placeholder='Goals'
     ref={(input) => {_goals = input}}/>
+
+    <input type="checkbox" id="Efficiency" name="Efficiency" value="Efficiency"/>
+    <label for="Efficiency">Efficiency</label>
+
+    <input type="checkbox" id="Innovation" name="Innovation" value="Innovation"/>
+    <label for="Innovation">Innovation</label>
+
+    <input type="checkbox" id="Collaboration" name="Collaboration" value="Collaboration"/>
+    <label for="Collaboration">Collaboration</label>
+
+    <input type="checkbox" id="Creativity" name="Creativity" value="Creativity"/>
+    <label for="Creativity">Creativity</label>
+
+    <input type="checkbox" id="Diligence" name="Diligence" value="Diligence"/>
+    <label for="Diligence">Diligence</label>
+    
     <div className='button'>
     <input type="submit" value="Add" />
     </div>
